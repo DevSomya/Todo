@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <h1>todos</h1>
+    </header>
+    <form action="">
+      <input
+        type="text"
+        class="todo-input"
+        placeholder="What needs to be done ?"
+      />
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+      <div class="todo-footer">
+        <div class="item-count"></div>
+        <div class="filter-buttons">
+          <button id="all-filter" value="All">All</button>
+          <button id="active-filter" value="Active">Active</button>
+          <button id="completed-filter" value="Completed">Completed</button>
+        </div>
+      </div>
+    </div>
+    <div class="select">
+      <!-- <select name="todos" class="todo-filter">
+        <option value="All">All</option>
+        <option value="Active">Active</option>
+        <option value="Completed">Completed</option>
+      </select> -->
+    <script src="app.js" defer></script>
+    </div>
+  </body>
+</html>
